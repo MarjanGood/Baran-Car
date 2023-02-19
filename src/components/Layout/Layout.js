@@ -5,10 +5,11 @@ function Layout({children}){
 
     return(
     <>
+
     <header className={styles.header}>
         <Link href="https://wwww.google.com" target="_blank">    
-         <h2>BARAN CAR</h2>
-         <p>Choose and buy your car</p>
+          <h2>BARAN CAR</h2>
+          <p>Choose and buy your car</p>
         </Link>
     </header>
 
@@ -20,7 +21,9 @@ function Layout({children}){
       </a>
        Next.js courses | Baran Car Project &copy;
     </footer>
+    
     </>
-    ) 
+    )
+     
 }
 export default Layout
