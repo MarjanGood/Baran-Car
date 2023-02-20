@@ -4,7 +4,7 @@ import Link from "next/link"
 
 function Card(props){
 
-    const {id, name,model, year, distance,location, image,price}=props;
+    const {id, name,model, year, distance,location, image,price} = props;
 
     return (
         <Link href={`/cars/${id}`}>
