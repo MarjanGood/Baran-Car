@@ -19,6 +19,9 @@ function CarDetails(props) {
     description,
   } = props;
 
+  console.log({props})
+  console.log(props)
+  debugger;
   return (
     <div className={styles.container}>
       <img src={image} className={styles.image} />
