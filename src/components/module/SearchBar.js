@@ -10,7 +10,7 @@ function SearchBar() {
   const [max,setMax]= useState("");
 
   const searchHandler=()=>{
-    if(min&& max){
+    if(min && max){
       router.push(`/filter/${min}/${max}`);
     }else{
       alert("please enter minimum and maximum price!")
@@ -28,7 +28,7 @@ function SearchBar() {
         <input
           placeholder="Inter max-price"
           value={max}  
-          onchange={e=>setMax(e.target.value)}
+          onChange={e=>setMax(e.target.value)}
         />
       </div>
 
